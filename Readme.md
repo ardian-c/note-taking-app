@@ -1,4 +1,4 @@
-# Design Product Feedback Architecture
+# Design PF Architecture
 
 Hi, I am Ardian Cakolli, a software engineer. In the next lines I'll explain the solutions I have provided to the task provided in this [link](https://www.notion.so/Design-Product-Feedback-architecture-b5eff97ff2ac479cacc337103804ee13#da6527627865478d9762f9c32a9bbe99).
 
@@ -15,11 +15,11 @@ Described in the picture below is my attempt to the PF architecture. Here is the
 7. QA testing & approach
 8. other services (CI, code analysis)
 
-![Product Feedback Architecture](https://github.com/ardian-c/note-taking-app/blob/master/assets/Product-Feedback-Architecture.png)
+![PF Architecture](https://github.com/ardian-c/note-taking-app/blob/master/assets/Product-Feedback-Architecture.png)
 
 ## List of all different services
 
-The Product Feedback I think would need to use a number of services. In the diagram I have only shown the Segment API Service, Mail Service, Notification Service, Queues.
+The PF I think would need to use a number of services. In the diagram I have only shown the Segment API Service, Mail Service, Notification Service, Queues.
 
 From the description of the task it says that PF will use another external tool, Segment, to handle the events from the surveys. Thus, a Segment API Service should be available, either as a standalone (microservice) or part of the main NodeJs backend. And as with most of similar products, a stable mail service should be essential. I think PF will need to communicate results or summaries to the surveys to clients, besides having a dashboard for them to login. Fortunately there are a number of solutions that would work well, AWS SES being reasonably cheap, but there are other tools too. I have included also a notification service, in case there are cases where push notifications are required however this might not be required.
 
