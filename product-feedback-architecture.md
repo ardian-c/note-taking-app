@@ -15,7 +15,7 @@ Described in the picture below is my attempt to the PF architecture. Here is the
 7. QA testing & approach
 8. other services (CI, code analysis)
 
-![Product Feedback Architecture](https://imgur.com/fH97oj8)
+![Product Feedback Architecture](https://github.com/ardian-c/note-taking-app/blob/master/assets/Product-Feedback-Architecture.png)
 
 ## List of all different services
 
