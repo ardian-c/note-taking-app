@@ -1,6 +1,6 @@
 # Design PF Architecture
 
-Hi, I am Ardian Cakolli, a software engineer. In the next lines I'll explain the solutions I have provided to the task provided in this [link](https://www.notion.so/Design-Product-Feedback-architecture-b5eff97ff2ac479cacc337103804ee13#da6527627865478d9762f9c32a9bbe99).
+Hi, I am Ardian Cakolli, a software engineer. In the next lines I'll explain the solutions I have provided to the task.
 
 ## Architecture Overview
 
